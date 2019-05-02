@@ -14,4 +14,8 @@ int main(void)
 {
 	RUN_TEST(test_bzero);
 	RUN_TEST(test_strcat);
+	RUN_TEST(test_isalpha);
+	RUN_TEST(test_isascii);
+	RUN_TEST(test_isdigit);
+	RUN_TEST(test_isalnum);
 }
