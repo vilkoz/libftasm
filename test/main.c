@@ -18,4 +18,8 @@ int main(void)
 	RUN_TEST(test_isascii);
 	RUN_TEST(test_isdigit);
 	RUN_TEST(test_isalnum);
+	RUN_TEST(test_isprint);
+	RUN_TEST(test_toupper);
+	RUN_TEST(test_tolower);
+	RUN_TEST(test_puts);
 }

@@ -8,6 +8,10 @@ SRC_NAMES= bzero.S				\
 		   isascii.S			\
 		   isdigit.S			\
 		   isalnum.S			\
+		   isprint.S			\
+		   toupper.S			\
+		   tolower.S			\
+		   puts.S				\
 
 SRC=$(addprefix src/, $(SRC_NAMES))
 
@@ -28,6 +32,10 @@ TEST_SRC_NAMES = test_bzero.c					\
 				 test_isascii.c					\
 				 test_isdigit.c					\
 				 test_isalnum.c					\
+				 test_isprint.c					\
+				 test_toupper.c					\
+				 test_tolower.c					\
+				 test_puts.c					\
 				 main.c
 
 TEST_SRC=$(addprefix test/, $(TEST_SRC_NAMES))

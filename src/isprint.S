@@ -1,26 +1,18 @@
-global _ft_isalnum
+global _ft_isprint
 
 section .data
 
 section .text
 
-_ft_isalnum:
+_ft_isprint:
 	push rbp
 	push rdi
 	push rsi
 	mov rbp, rsp
 
-	cmp rdi, '0'
+	cmp rdi, 0x20
 	jl return_false
-	cmp rdi, '9'
-	jle return_true
-	cmp rdi, 'A'
-	jl return_false
-	cmp rdi, 'Z'
-	jle return_true
-	cmp rdi, 'a'
-	jl return_false
-	cmp rdi, 'z'
+	cmp rdi, 0x7e
 	jg return_false
 
 return_true:
