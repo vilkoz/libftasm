@@ -11,5 +11,6 @@ int		test_isprint(void);
 int		test_toupper(void);
 int		test_tolower(void);
 int		test_puts(void);
+int		test_strlen(void);
 
 #endif

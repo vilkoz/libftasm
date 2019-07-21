@@ -22,4 +22,5 @@ int main(void)
 	RUN_TEST(test_toupper);
 	RUN_TEST(test_tolower);
 	RUN_TEST(test_puts);
+	RUN_TEST(test_strlen);
 }
