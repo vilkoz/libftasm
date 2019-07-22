@@ -15,7 +15,7 @@ int		ft_isascii(int);
 
 int test_isascii(void)
 {
-	for (char i = -127; i < 127; i++) {
+	for (int i = -256; i < 256; i++) {
 		ISASCII_TESTCASE(i);
 	}
 	return (0);

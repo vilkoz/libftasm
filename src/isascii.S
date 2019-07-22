@@ -12,7 +12,7 @@ _ft_isascii:
 
 	cmp rdi, 0
 	jl return_false
-	cmp rdi, 0177
+	cmp rdi, 127
 	jg return_false
 
 return_true:
