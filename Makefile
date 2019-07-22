@@ -1,4 +1,4 @@
-NAME=libftasm
+NAME=libfts.a
 
 TEST=run_test
 
@@ -14,6 +14,7 @@ SRC_NAMES= bzero.S				\
 		   puts.S				\
 		   strlen.S				\
 		   memset.S				\
+		   dummy.S				\
 
 SRC=$(addprefix src/, $(SRC_NAMES))
 
