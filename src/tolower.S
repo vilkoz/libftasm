@@ -20,6 +20,7 @@ not_change:
 	mov rax, rdi
 	jmp exit
 change:
+	mov rax, rdi
 	add rax, 32
 exit:
 	mov rsp, rbp

@@ -10,17 +10,18 @@ _ft_toupper:
 	push rsi
 	mov rbp, rsp
 
-	cmp rdi, 'a'
+	cmp dil, 'a'
 	jl not_change
-	cmp rdi, 'z'
+	cmp dil, 'z'
 	jg not_change
 	jmp change
 
 not_change:
-	mov rax, rdi
+	mov eax, edi
 	jmp exit
 change:
-	sub rax, 32
+	mov eax, edi
+	sub eax, 32
 exit:
 	mov rsp, rbp
 	pop rsi
