@@ -12,5 +12,6 @@ int		test_toupper(void);
 int		test_tolower(void);
 int		test_puts(void);
 int		test_strlen(void);
+int		test_memset(void);
 
 #endif

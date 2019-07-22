@@ -23,4 +23,5 @@ int main(void)
 	RUN_TEST(test_tolower);
 	RUN_TEST(test_puts);
 	RUN_TEST(test_strlen);
+	RUN_TEST(test_memset);
 }
