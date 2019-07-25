@@ -14,6 +14,7 @@ SRC_NAMES= bzero.S				\
 		   puts.S				\
 		   strlen.S				\
 		   memset.S				\
+		   memcpy.S				\
 		   dummy.S				\
 
 SRC=$(addprefix src/, $(SRC_NAMES))
@@ -41,6 +42,7 @@ TEST_SRC_NAMES = test_bzero.c					\
 				 test_puts.c					\
 				 test_strlen.c					\
 				 test_memset.c					\
+				 test_memcpy.c					\
 				 main.c
 
 TEST_SRC=$(addprefix test/, $(TEST_SRC_NAMES))
